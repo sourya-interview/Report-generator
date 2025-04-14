@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Output files
+output/*.csv
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# pytest cache
+.pytest_cache/
+
+# logs
+*.log
+logs/
