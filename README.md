@@ -9,21 +9,21 @@ This is a Python-based backend microservice built using FastAPI. It allows uploa
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/report-generator.git
-   cd report-generator
+   cd report-generator```
 
 2. (Optional) Create a virtual environment
-
+```bash
 python -m venv venv
 source venv/bin/activate    # On Windows use: venv\Scripts\activate
-
+```
 3. Install dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 4. Run the application
-
+```bash
 uvicorn main:app --reload
-
+```
 5. Open the API Docs Visit: http://localhost:8000/docs
 
 
