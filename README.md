@@ -94,8 +94,6 @@ report-generator/
 │   └── sample_input/
 │       ├── input.csv        # Sample input
 │       └── reference.csv    # Sample reference
-├── output/
-│   └── output.csv           # Generated report
 ├── tests/
 │   └── test_main.py         # Unit tests (basic)                       
 ├── .gitignore
