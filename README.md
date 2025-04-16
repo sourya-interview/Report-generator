@@ -12,18 +12,18 @@ This is a Python-based backend microservice built using FastAPI. It allows uploa
    cd report-generator```
 
 2. (Optional) Create a virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate    # On Windows use: venv\Scripts\activate
-```
+   ```bash
+   python -m venv venv
+   source venv/bin/activate    # On Windows use: venv\Scripts\activate
+   ```
 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 4. Run the application
-```bash
-uvicorn main:app --reload
-```
+   ```bash
+   uvicorn main:app --reload
+   ```
 5. Open the API Docs Visit: http://localhost:8000/docs
 
 
@@ -79,7 +79,7 @@ x-api-key: supersecret123
 ---
 
 Project Structure
-
+```bash
 report-generator/
 ├── app/
 │   ├── __init__.py
@@ -101,7 +101,7 @@ report-generator/
 ├── .gitignore
 |── README.md
 ├── requirements.txt         # Dependencies    
-
+```
 ---
 
 What's Not Yet Done (As per given assessment)
